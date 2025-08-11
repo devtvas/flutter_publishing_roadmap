@@ -1,0 +1,35 @@
+site_name: Flutter Publishing Specialist
+site_url: https://devtvas.github.io/flutter_publishing_roadmap
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - attr_list
+  - toc:
+      permalink: true
+nav:
+  - 00 Objetivos: 00-objetivos.md
+  - 05 Getting Started: 05-getting-started.md
+  - 10 Resultado (Definition of Done): 10-resultado.md
+  - 15 Pré-requisitos: 15-pre-requisitos.md
+  - 20 Estrutura White-label & Schemes: 20-estrutura-white-label.md
+  - 30 Runbook (Release manual): 30-runbook.md
+  - 40 Fastlane Guide: 40-fastlane-guide.md
+  - 50 CI/CD Guide: 50-cicd-guide.md
+  - 60 Playbook de Rejeições: 60-playbook-rejeicoes.md
+  - 70 Modelos de Resposta: 70-modelos-resposta.md
+  - 80 Tabela de Controle: 80-tabela-controle.md
+  - 90 Checklist Final: 90-checklist-final.md
+  - 98 Snippets: 98-snippets.md
+  - 98 Snippets: 98-snippets.md
+use_directory_urls: false
